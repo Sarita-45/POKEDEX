@@ -1,0 +1,2060 @@
+header{
+    background-color:rgb(79, 155, 231);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+nav {
+    float: right;
+}
+
+  nav ul{
+    list-style: none;
+    overflow: hidden;
+  }
+
+  nav ul li{
+    float:left;
+    font-family:cursive;
+    font-size: 25px;
+  }
+  nav ul li a {
+    display: block;
+    padding: 35px;
+    color:aliceblue;
+    text-decoration:none;
+  }
+  nav ul li:hover {
+    background-color:rgb(214, 208, 92)
+  }
+
+img {
+    float: left;
+    width: 35%;
+    height: 35%;
+}
+
+.banner{
+    background: url(img/banner/pokemons/wp12045009\ \(1\).webp);
+    width: 100%;
+    min-height:100vh;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color:aliceblue;
+}
+
+.banner-title{
+    font-size: 40px;
+    color:rgb(240, 233, 233);
+    font-family:cursive;
+    
+}
+ 
+.banner-content{
+    max-width: 700px;
+    text-align:grid;
+    z-index: 1; 
+}
+
+
+
+
+.overplay{
+    position: absolute;
+    background-color:rgb(55, 51, 54);
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.container-card{
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  align-items:center;
+  flex-wrap: wrap;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 250px;
+  height: 350px;
+  border-radius:6px ;
+  border: 1px solid gray;
+
+}
+
+.card-pikachu{
+  background-color:black;
+}
+
+.card-pikachu:hover{
+  background-color:rgba(246, 246, 33, 0.889);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-title{
+  width:100%;
+  color:rgb(245, 238, 238);
+  font-size: 16px;
+  text-align: center;
+
+}
+
+.card-description{
+  display:none;
+}
+
+.card-image{
+  width:200px;
+  height:auto;
+  border-radius: 6px;
+}
+
+.card-charizard{
+  background-color:black;
+}
+
+.card-charizard:hover{
+  background-color:rgb(212, 96, 51);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-squirtle{
+  background-color:black;
+}
+
+.card-squirtle:hover{
+  background-color:rgb(36, 138, 158);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-nidoran{
+  background-color:black;
+}
+
+.card-nidoran:hover{
+  background-color:rgb(110, 58, 120);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-Jigglypuff{
+  background-color:black;
+}
+
+.card-Jigglypuff:hover{
+  background-color:rgb(211, 96, 176);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-golduck{
+  background-color:black;
+}
+
+.card-golduck:hover{
+  background-color:rgb(48, 92, 129);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-dugtrio{
+  background-color:black;
+}
+
+.card-dugtrio:hover{
+  background-color:rgb(98, 44, 44);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-psyduck{
+  background-color:black;
+}
+
+.card-psyduck:hover{
+  background-color:rgb(51, 135, 195);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-Lickitung{
+  background-color:black;
+}
+
+.card-Lickitung:hover{
+  background-color:rgb(175, 65, 118);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-horsea{
+  background-color:black;
+}
+
+.card-horsea:hover{
+  background-color:rgb(23, 58, 113);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-eevee{
+  background-color:black;
+}
+
+.card-eevee:hover{
+  background-color:rgb(144, 79, 26);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-porygon{
+  background-color:black;
+}
+
+.card-porygon:hover{
+  background-color:rgb(161, 85, 129);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-omanyte{
+  background-color:black;
+}
+
+.card-omanyte:hover{
+  background-color:rgb(121, 166, 238);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-mew{
+  background-color:black;
+}
+
+.card-mew:hover{
+  background-color:rgb(162, 42, 108);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-chikorita{
+  background-color:black;
+}
+
+.card-chikorita:hover{
+  background-color:rgb(48, 234, 101);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-quilava{
+  background-color:black;
+}
+
+.card-quilava:hover{
+  background-color:rgb(234, 160, 48);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-pichu{
+  background-color:black;
+}
+
+.card-pichu:hover{
+  background-color:rgb(234, 224, 38);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-torchic{
+  background-color:black;
+}
+
+.card-torchic:hover{
+  background-color:rgb(242, 195, 53);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-caterpie{
+  background-color:black;
+}
+
+.card-caterpie:hover{
+  background-color:rgb(44, 199, 57);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-charmander{
+  background-color:black;
+}
+
+.card-charmander:hover{
+  background-color:rgb(234, 153, 54);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-Wigglytuff{
+  background-color:black;
+}
+
+.card-Wigglytuff:hover{
+  background-color:rgb(238, 117, 191);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-chansey{
+  background-color:black;
+}
+
+.card-chansey:hover{
+  background-color:rgb(238, 142, 201);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-meganium{
+  background-color:black;
+}
+
+.card-meganium:hover{
+  background-color:rgb(66, 213, 36);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-furret{
+  background-color:black;
+}
+
+.card-furret:hover{
+  background-color:rgb(71, 51, 51);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-octillery{
+  background-color:black;
+}
+
+.card-octillery:hover{
+  background-color:rgb(224, 105, 105);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-stantler{
+  background-color:black;
+}
+
+.card-stantler:hover{
+  background-color:rgb(79, 24, 24);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-smoochum{
+  background-color:black;
+}
+
+.card-smoochum:hover{
+  background-color:rgb(210, 115, 159);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-ponyta{
+  background-color:black;
+}
+
+.card-ponyta:hover{
+  background-color:rgb(176, 121, 25);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-persian{
+  background-color:black;
+}
+
+.card-persian:hover{
+  background-color:rgb(197, 190, 61);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-voltorb{
+  background-color:black;
+}
+
+.card-voltorb:hover{
+  background-color:rgb(232, 223, 52);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-seel{
+  background-color:black;
+}
+
+.card-seel:hover{
+  background-color:rgb(17, 145, 191);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-magikarp{
+  background-color:black;
+}
+
+.card-magikarp:hover{
+  background-color:rgb(42, 99, 223);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-tangela{
+  background-color:black;
+}
+
+.card-tangela:hover{
+  background-color:rgb(51, 154, 70);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-hitmochan{
+  background-color:black;
+}
+
+.card-hitmochan:hover{
+  background-color:rgb(217, 243, 21);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-exeggcute{
+  background-color:black;
+}
+
+.card-exeggcute:hover{
+  background-color:rgb(196, 103, 168);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-staryu{
+  background-color:black;
+}
+
+.card-staryu:hover{
+  background-color:rgb(26, 91, 166);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-schuckle{
+  background-color:black;
+}
+
+.card-schuckle:hover{
+  background-color:rgb(13, 190, 34);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-teddiursa{
+  background-color:black;
+}
+
+.card-teddiursa:hover{
+  background-color:rgb(118, 75, 11);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-espeon{
+  background-color:black;
+}
+
+.card-espeon:hover{
+  background-color:rgb(117, 83, 150);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-lapras{
+  background-color:black;
+}
+
+.card-lapras:hover{
+  background-color:rgb(77, 141, 226);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-umbreon{
+  background-color:black;
+}
+
+.card-umbreon:hover{
+  background-color:rgb(73, 78, 84);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-misdreavus{
+  background-color:black;
+}
+
+.card-misdreavus:hover{
+  background-color:rgb(119, 83, 145);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-krabby{
+  background-color:black;
+}
+
+.card-krabby:hover{
+  background-color:rgb(34, 142, 220);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-wooper{
+  background-color:black;
+}
+
+.card-wooper:hover{
+  background-color:rgb(122, 136, 46);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-azumarill{
+  background-color:black;
+}
+
+.card-azumarill:hover{
+  background-color:rgb(238, 139, 205);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-bellossom{
+  background-color:black;
+}
+
+.card-bellossom:hover{
+  background-color:rgb(89, 181, 92);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-mareep{
+  background-color:black;
+}
+
+.card-mareep:hover{
+  background-color:rgb(219, 240, 31);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-togetic{
+  background-color:black;
+}
+
+.card-togetic:hover{
+  background-color:rgb(233, 139, 219);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-marill{
+  background-color:black;
+}
+
+.card-marill:hover{
+  background-color:rgb(64, 140, 222);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-flaffy{
+  background-color:black;
+}
+
+.card-flaffy:hover{
+  background-color:rgb(215, 232, 68);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-swinub{
+  background-color:black;
+}
+
+.card-swinub:hover{
+  background-color:rgb(201, 214, 86);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-cleffa{
+  background-color:black;
+}
+
+.card-cleffa:hover{
+  background-color:rgb(236, 163, 223);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-phanpy{
+  background-color:black;
+}
+
+.card-phanpy:hover{
+  background-color:rgb(226, 235, 135);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-jumpluff{
+  background-color:black;
+}
+
+.card-jumpluff:hover{
+  background-color:rgb(110, 230, 76);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-aipom{
+  background-color:black;
+}
+
+.card-aipom:hover{
+  background-color:rgb(122, 84, 152);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-totodile{
+  background-color:black;
+}
+
+.card-totodile:hover{
+  background-color:rgb(42, 135, 189);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-dragonair{
+  background-color:black;
+}
+
+.card-dragonair:hover{
+  background-color:rgb(232, 149, 101);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-sunflora{
+  background-color:black;
+}
+
+.card-sunflora:hover{
+  background-color:rgb(43, 88, 55);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-sneasel{
+  background-color:black;
+}
+
+.card-sneasel:hover{
+  background-color:rgb(47, 50, 48);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-unown{
+  background-color:black;
+}
+
+.card-unown:hover{
+  background-color:rgb(205, 53, 109);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-bayleef{
+  background-color:black;
+}
+
+.card-bayleef:hover{
+  background-color:rgb(156, 234, 112);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-qwilfish{
+  background-color:black;
+}
+
+.card-qwilfish:hover{
+  background-color:rgb(78, 184, 161);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-Wobbuffet{
+  background-color:black;
+}
+
+.card-Wobbuffet:hover{
+  background-color:rgb(108, 54, 99);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-girafarig{
+  background-color:black;
+}
+
+.card-girafarig:hover{
+  background-color:rgb(118, 118, 15);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-pineco{
+  background-color:black;
+}
+
+.card-pineco:hover{
+  background-color:rgb(18, 85, 50);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-suicune{
+  background-color:black;
+}
+
+.card-suicune:hover{
+  background-color:rgb(43, 118, 115);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-celebi{
+  background-color:black;
+}
+
+.card-celebi:hover{
+  background-color:rgb(30, 152, 34);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-miltank{
+  background-color:black;
+}
+
+.card-miltank:hover{
+  background-color:rgb(132, 68, 92);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-mantine{
+  background-color:black;
+}
+
+.card-mantine:hover{
+  background-color:rgb(51, 134, 198);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-treecko{
+  background-color:black;
+}
+
+.card-treecko:hover{
+  background-color:rgb(125, 238, 123);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-piloswine{
+  background-color:black;
+}
+
+.card-piloswine:hover{
+  background-color:rgb(245, 239, 49);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-poochyena{
+  background-color:black;
+}
+
+.card-poochyena:hover{
+  background-color:rgb(52, 52, 48);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-blaziken{
+  background-color:black;
+}
+
+.card-blaziken:hover{
+  background-color:rgb(240, 158, 76);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-wingull{
+  background-color:black;
+}
+
+.card-wingull:hover{
+  background-color:rgb(42, 138, 160);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-wurmple{
+  background-color:black;
+}
+
+.card-wurmple:hover{
+  background-color:rgb(13, 172, 92);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-mudkip{
+  background-color:black;
+}
+
+.card-mudkip:hover{
+  background-color:rgb(13, 172, 92);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-houndour{
+  background-color:black;
+}
+
+.card-houndour:hover{
+  background-color:rgb(245, 182, 47);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-goldeen{
+  background-color:black;
+}
+
+.card-goldeen:hover{
+  background-color:rgb(12, 151, 189);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-kirlia{
+  background-color:black;
+}
+
+.card-kirlia:hover{
+  background-color:rgb(230, 88, 147);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-Shroomish{
+  background-color:black;
+}
+
+.card-Shroomish:hover{
+  background-color:rgb(58, 132, 57);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-surskit{
+  background-color:black;
+}
+
+.card-surskit:hover{
+  background-color:rgb(39, 137, 207);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-sunkern{
+  background-color:black;
+}
+
+.card-sunkern:hover{
+  background-color:rgb(80, 234, 69);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-ralts{
+  background-color:black;
+}
+
+.card-ralts:hover{
+  background-color:rgb(238, 91, 182);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-makuhita{
+  background-color:black;
+}
+
+.card-makuhita:hover{
+  background-color:rgb(185, 130, 76);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-masquerain{
+  background-color:black;
+}
+
+.card-masquerain:hover{
+  background-color:rgb(62, 232, 28);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-wishmur{
+  background-color:black;
+}
+
+.card-wishmur:hover{
+  background-color:rgb(230, 134, 227);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-slakoth{
+  background-color:black;
+}
+
+.card-slakoth:hover{
+  background-color:rgb(89, 86, 89);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-sharpedo{
+  background-color:black;
+}
+
+.card-sharpedo:hover{
+  background-color:rgb(56, 92, 154);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-breloom{
+  background-color:black;
+}
+
+.card-breloom:hover{
+  background-color:rgb(77, 199, 75);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-plusle{
+  background-color:black;
+}
+
+.card-plusle:hover{
+  background-color:rgb(228, 236, 70);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-medicham{
+  background-color:black;
+}
+
+.card-medicham:hover{
+  background-color:rgb(195, 89, 123);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-sableye{
+  background-color:black;
+}
+
+.card-sableye:hover{
+  background-color:rgb(190, 131, 238);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-cubone{
+  background-color:black;
+}
+
+.card-cubone:hover{
+  background-color:rgb(170, 167, 83);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-drowzee{
+  background-color:black;
+}
+
+.card-drowzee:hover{
+  background-color:rgb(230, 119, 193);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-shellder{
+  background-color:black;
+}
+
+.card-shellder:hover{
+  background-color:rgb(83, 123, 244);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-doduo{
+  background-color:black;
+}
+
+.card-doduo:hover{
+  background-color:rgb(230, 177, 80);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-weepinbell{
+  background-color:black;
+}
+
+.card-weepinbell:hover{
+  background-color:rgb(12, 128, 27);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-tentacruel{
+  background-color:black;
+}
+
+.card-tentacruel:hover{
+  background-color:rgb(69, 149, 228);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-machop{
+  background-color:black;
+}
+
+.card-machop:hover{
+  background-color:rgb(240, 180, 68);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-electabuzz{
+  background-color:black;
+}
+
+.card-electabuzz:hover{
+  background-color:rgb(231, 240, 68);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-poliwag{
+  background-color:black;
+}
+
+.card-poliwag:hover{
+  background-color:rgb(42, 101, 147);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-paras{
+  background-color:black;
+}
+
+.card-paras:hover{
+  background-color:rgb(73, 126, 36);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-slugma{
+  background-color:black;
+}
+
+.card-slugma:hover{
+  background-color:rgb(234, 129, 59);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-scizor{
+  background-color:black;
+}
+
+.card-scizor:hover{
+  background-color:rgb(96, 116, 126);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-gligar{
+  background-color:black;
+}
+
+.card-gligar:hover{
+  background-color:rgb(181, 187, 61);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-politoed{
+  background-color:black;
+}
+
+.card-politoed:hover{
+  background-color:rgb(117, 180, 236);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-ledian{
+  background-color:black;
+}
+
+.card-ledian:hover{
+  background-color:rgb(117, 236, 139);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-tauros{
+  background-color:black;
+}
+
+.card-tauros:hover{
+  background-color:rgb(244, 199, 64);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-amapharos{
+  background-color:black;
+}
+
+.card-amapharos:hover{
+  background-color:rgb(232, 245, 49);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-chinchou{
+  background-color:black;
+}
+
+.card-chinchou:hover{
+  background-color:rgb(75, 130, 179);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-azurill{
+  background-color:black;
+}
+
+.card-azurill:hover{
+  background-color:rgb(158, 77, 139);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-skitty{
+  background-color:black;
+}
+
+.card-skitty:hover{
+  background-color:rgb(234, 159, 228);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-taillow{
+  background-color:black;
+}
+
+.card-taillow:hover{
+  background-color:rgb(20, 32, 79);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-gardevoir{
+  background-color:black;
+}
+
+.card-gardevoir:hover{
+  background-color:rgb(159, 77, 133);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-dustox{
+  background-color:black;
+}
+
+.card-dustox:hover{
+  background-color:rgb(215, 109, 224);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-linoone{
+  background-color:black;
+}
+
+.card-linoone:hover{
+  background-color:rgb(85, 76, 65);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-zigzagoon{
+  background-color:black;
+}
+
+.card-zigzagoon:hover{
+  background-color:rgb(77, 70, 62);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-larvitar{
+  background-color:black;
+}
+
+.card-larvitar:hover{
+  background-color:rgb(83, 57, 28);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-hitmontop{
+  background-color:black;
+}
+
+.card-hitmontop:hover{
+  background-color:rgb(158, 105, 44);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-smeargle{
+  background-color:black;
+}
+
+.card-smeargle:hover{
+  background-color:rgb(120, 106, 91);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-magby{
+  background-color:black;
+}
+
+.card-magby:hover{
+  background-color:rgb(244, 173, 67);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-spoink{
+  background-color:black;
+}
+
+.card-spoink:hover{
+  background-color:rgb(169, 84, 149);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-swalot{
+  background-color:black;
+}
+
+.card-swalot:hover{
+  background-color:rgb(191, 119, 203);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-roselia{
+  background-color:black;
+}
+
+.card-roselia:hover{
+  background-color:rgb(90, 156, 96);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-numel{
+  background-color:black;
+}
+
+.card-numel:hover{
+  background-color:rgb(244, 165, 112);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-electrike{
+  background-color:black;
+}
+
+.card-electrike:hover{
+  background-color:rgb(244, 236, 93);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-lairon{
+  background-color:black;
+}
+
+.card-lairon:hover{
+  background-color:rgb(91, 91, 83);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-gulpin{
+  background-color:black;
+}
+
+.card-gulpin:hover{
+  background-color:rgb(212, 123, 234);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-delcatty{
+  background-color:black;
+}
+
+.card-delcatty:hover{
+  background-color:rgb(236, 208, 155);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-mawile{
+  background-color:black;
+}
+
+.card-mawile:hover{
+  background-color:rgb(240, 133, 210);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-aron{
+  background-color:black;
+}
+
+.card-aron:hover{
+  background-color:rgb(95, 94, 83);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-haryama{
+  background-color:black;
+}
+
+.card-haryama:hover{
+  background-color:rgb(234, 176, 68);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-gorebyss{
+  background-color:black;
+}
+
+.card-gorebyss:hover{
+  background-color:rgb(100, 144, 224);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-absol{
+  background-color:black;
+}
+
+.card-absol:hover{
+  background-color:rgb(57, 59, 62);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-tropius{
+  background-color:black;
+}
+
+.card-tropius:hover{
+  background-color:rgb(89, 160, 95);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-chimecho{
+  background-color:black;
+}
+
+.card-chimecho:hover{
+  background-color:rgb(184, 89, 146);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-flygon{
+  background-color:black;
+}
+
+.card-flygon:hover{
+  background-color:rgb(136, 132, 65);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-clamperl{
+  background-color:black;
+}
+
+.card-clamperl:hover{
+  background-color:rgb(85, 140, 228);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-baltoy{
+  background-color:black;
+}
+
+.card-baltoy:hover{
+  background-color:rgb(234, 101, 196);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-swablu{
+  background-color:black;
+}
+
+.card-swablu:hover{
+  background-color:rgb(110, 167, 179);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-lileep{
+  background-color:black;
+}
+
+.card-lileep:hover{
+  background-color:rgb(90, 134, 74);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-luvdisc{
+  background-color:black;
+}
+
+.card-luvdisc:hover{
+  background-color:rgb(164, 219, 234);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-wynaut{
+  background-color:black;
+}
+
+.card-wynaut:hover{
+  background-color:rgb(213, 91, 173);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-claydol{
+  background-color:black;
+}
+
+.card-claydol:hover{
+  background-color:rgb(139, 144, 42);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-milotic{
+  background-color:black;
+}
+
+.card-milotic:hover{
+  background-color:rgb(93, 140, 198);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-castform{
+  background-color:black;
+}
+
+.card-castform:hover{
+  background-color:rgb(117, 119, 122);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-zangoose{
+  background-color:black;
+}
+
+.card-zangoose:hover{
+  background-color:rgb(199, 201, 205);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-altaria{
+  background-color:black;
+}
+
+.card-altaria:hover{
+  background-color:rgb(246, 100, 98);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-trapinch{
+  background-color:black;
+}
+
+.card-trapinch:hover{
+  background-color:rgb(97, 111, 28);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
+
+.card-spinda{
+  background-color:black;
+}
+
+.card-spinda:hover{
+  background-color:rgb(230, 175, 201);
+  transition: all 1s;
+  height: 380px;
+  .card-description {
+    display: block;
+  }
+}
